@@ -26,7 +26,6 @@
 {
     self.loop = [NSRunLoop currentRunLoop];
     self.timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(timerFired) userInfo:nil repeats:NO];
-    
     [self.loop addTimer:self.timer forMode:NSDefaultRunLoopMode];
     
 //    NSPort *port = [NSPort port];
