@@ -15,6 +15,7 @@
 		6CDAFC8C1AFCAB9A00325E25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDAFC8A1AFCAB9A00325E25 /* LaunchScreen.xib */; };
 		6CDAFC981AFCAB9A00325E25 /* testRunloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAFC971AFCAB9A00325E25 /* testRunloopTests.m */; };
 		6CDAFCA31AFCABC200325E25 /* MyOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAFCA21AFCABC200325E25 /* MyOp.m */; };
+		6CDDBB181BFACB510004CBEC /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDDBB171BFACB510004CBEC /* MyView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		6CDAFC971AFCAB9A00325E25 /* testRunloopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRunloopTests.m; sourceTree = "<group>"; };
 		6CDAFCA11AFCABC200325E25 /* MyOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOp.h; sourceTree = "<group>"; };
 		6CDAFCA21AFCABC200325E25 /* MyOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOp.m; sourceTree = "<group>"; };
+		6CDDBB161BFACB510004CBEC /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		6CDDBB171BFACB510004CBEC /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				6CDAFC831AFCAB9A00325E25 /* ViewController.m */,
 				6CDAFCA11AFCABC200325E25 /* MyOp.h */,
 				6CDAFCA21AFCABC200325E25 /* MyOp.m */,
+				6CDDBB161BFACB510004CBEC /* MyView.h */,
+				6CDDBB171BFACB510004CBEC /* MyView.m */,
 				6CDAFC851AFCAB9A00325E25 /* Main.storyboard */,
 				6CDAFC881AFCAB9A00325E25 /* Images.xcassets */,
 				6CDAFC8A1AFCAB9A00325E25 /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 				6CDAFC811AFCAB9A00325E25 /* AppDelegate.m in Sources */,
 				6CDAFCA31AFCABC200325E25 /* MyOp.m in Sources */,
 				6CDAFC7E1AFCAB9A00325E25 /* main.m in Sources */,
+				6CDDBB181BFACB510004CBEC /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +430,7 @@
 				6CDAFC9D1AFCAB9A00325E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CDAFC9E1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloopTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				6CDAFCA01AFCAB9A00325E25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
