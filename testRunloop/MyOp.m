@@ -20,6 +20,8 @@
 - (void)timerFired
 {
     NSLog(@"fired, %p, %p", [NSRunLoop currentRunLoop], [NSRunLoop mainRunLoop]);
+    
+    
 }
 
 - (void)main
