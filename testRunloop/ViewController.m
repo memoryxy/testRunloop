@@ -24,24 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.queue = [[NSOperationQueue alloc] init];
-    
-    MyOp *op = [MyOp new];
-    [self.queue addOperation:op];
-    
-    //[self performSelector:@selector(test) withObject:nil afterDelay:3.0];
-    
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(test) userInfo:nil repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
-    
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeInfoDark];
-    [self.view addSubview:btn];
-    btn.frame = CGRectMake(0, 20, 50, 50);
-    
-    UITableView *table = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 400) style:UITableViewStylePlain];
-    [self.view addSubview:table];
-    
 }
 
 - (void)didReceiveMemoryWarning {
