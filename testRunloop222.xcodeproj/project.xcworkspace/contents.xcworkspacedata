@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:testRunloop.xcodeproj">
+      location = "self:/Users/wangjianfei/Documents/myown/gittest2/testRunloop222.xcodeproj">
    </FileRef>
 </Workspace>

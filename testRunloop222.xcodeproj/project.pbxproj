@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6CDAFC781AFCAB9A00325E25 /* testRunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDAFC781AFCAB9A00325E25 /* testRunloop222.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRunloop222.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDAFC7C1AFCAB9A00325E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDAFC7D1AFCAB9A00325E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CDAFC7F1AFCAB9A00325E25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		6CDAFC861AFCAB9A00325E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CDAFC881AFCAB9A00325E25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6CDAFC8B1AFCAB9A00325E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6CDAFC911AFCAB9A00325E25 /* testRunloopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRunloopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDAFC911AFCAB9A00325E25 /* testRunloop222.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRunloop222.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDAFC961AFCAB9A00325E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDAFC971AFCAB9A00325E25 /* testRunloopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRunloopTests.m; sourceTree = "<group>"; };
 		6CDAFCA11AFCABC200325E25 /* MyOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOp.h; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 		6CDAFC791AFCAB9A00325E25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CDAFC781AFCAB9A00325E25 /* testRunloop.app */,
-				6CDAFC911AFCAB9A00325E25 /* testRunloopTests.xctest */,
+				6CDAFC781AFCAB9A00325E25 /* testRunloop222.app */,
+				6CDAFC911AFCAB9A00325E25 /* testRunloop222.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CDAFC771AFCAB9A00325E25 /* testRunloop */ = {
+		6CDAFC771AFCAB9A00325E25 /* testRunloop222 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CDAFC9B1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloop" */;
+			buildConfigurationList = 6CDAFC9B1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloop222" */;
 			buildPhases = (
 				6CDAFC741AFCAB9A00325E25 /* Sources */,
 				6CDAFC751AFCAB9A00325E25 /* Frameworks */,
@@ -139,14 +139,14 @@
 			);
 			dependencies = (
 			);
-			name = testRunloop;
+			name = testRunloop222;
 			productName = testRunloop;
-			productReference = 6CDAFC781AFCAB9A00325E25 /* testRunloop.app */;
+			productReference = 6CDAFC781AFCAB9A00325E25 /* testRunloop222.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CDAFC901AFCAB9A00325E25 /* testRunloopTests */ = {
+		6CDAFC901AFCAB9A00325E25 /* testRunloop222Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CDAFC9E1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloopTests" */;
+			buildConfigurationList = 6CDAFC9E1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloop222Tests" */;
 			buildPhases = (
 				6CDAFC8D1AFCAB9A00325E25 /* Sources */,
 				6CDAFC8E1AFCAB9A00325E25 /* Frameworks */,
@@ -157,9 +157,9 @@
 			dependencies = (
 				6CDAFC931AFCAB9A00325E25 /* PBXTargetDependency */,
 			);
-			name = testRunloopTests;
+			name = testRunloop222Tests;
 			productName = testRunloopTests;
-			productReference = 6CDAFC911AFCAB9A00325E25 /* testRunloopTests.xctest */;
+			productReference = 6CDAFC911AFCAB9A00325E25 /* testRunloop222.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CDAFC731AFCAB9A00325E25 /* Build configuration list for PBXProject "testRunloop" */;
+			buildConfigurationList = 6CDAFC731AFCAB9A00325E25 /* Build configuration list for PBXProject "testRunloop222" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -193,8 +193,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CDAFC771AFCAB9A00325E25 /* testRunloop */,
-				6CDAFC901AFCAB9A00325E25 /* testRunloopTests */,
+				6CDAFC771AFCAB9A00325E25 /* testRunloop222 */,
+				6CDAFC901AFCAB9A00325E25 /* testRunloop222Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		6CDAFC931AFCAB9A00325E25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CDAFC771AFCAB9A00325E25 /* testRunloop */;
+			target = 6CDAFC771AFCAB9A00325E25 /* testRunloop222 */;
 			targetProxy = 6CDAFC921AFCAB9A00325E25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -357,7 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testRunloop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = testRunloop222;
 			};
 			name = Debug;
 		};
@@ -367,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testRunloop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = testRunloop222;
 			};
 			name = Release;
 		};
@@ -385,8 +385,8 @@
 				);
 				INFOPLIST_FILE = testRunloopTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRunloop.app/testRunloop";
+				PRODUCT_NAME = testRunloop222;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRunloop222.app/testRunloop222";
 			};
 			name = Debug;
 		};
@@ -400,15 +400,15 @@
 				);
 				INFOPLIST_FILE = testRunloopTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRunloop.app/testRunloop";
+				PRODUCT_NAME = testRunloop222;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRunloop222.app/testRunloop222";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CDAFC731AFCAB9A00325E25 /* Build configuration list for PBXProject "testRunloop" */ = {
+		6CDAFC731AFCAB9A00325E25 /* Build configuration list for PBXProject "testRunloop222" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDAFC991AFCAB9A00325E25 /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CDAFC9B1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloop" */ = {
+		6CDAFC9B1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloop222" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDAFC9C1AFCAB9A00325E25 /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CDAFC9E1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloopTests" */ = {
+		6CDAFC9E1AFCAB9A00325E25 /* Build configuration list for PBXNativeTarget "testRunloop222Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CDAFC9F1AFCAB9A00325E25 /* Debug */,
