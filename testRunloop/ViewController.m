@@ -20,6 +20,7 @@
 - (void)test
 {
     NSLog(@"%@", [[NSRunLoop currentRunLoop] currentMode]);
+    // v1.0
 }
 
 - (void)viewDidLoad {
