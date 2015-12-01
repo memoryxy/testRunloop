@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.queue = [NSOperationQueue new];
+    self.queue = [NSOperationQueue  new] ;
     
     MyOp *op = [MyOp new];
     [self.queue addOperation:op];
