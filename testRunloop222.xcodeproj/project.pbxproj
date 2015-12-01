@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C400D2C1C0D51BB00B067A6 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C400D2B1C0D51BB00B067A6 /* Property List.plist */; };
 		6CDAFC7E1AFCAB9A00325E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAFC7D1AFCAB9A00325E25 /* main.m */; };
 		6CDAFC811AFCAB9A00325E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAFC801AFCAB9A00325E25 /* AppDelegate.m */; };
 		6CDAFC841AFCAB9A00325E25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAFC831AFCAB9A00325E25 /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C400D2B1C0D51BB00B067A6 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		6CDAFC781AFCAB9A00325E25 /* testRunloop222.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRunloop222.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDAFC7C1AFCAB9A00325E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDAFC7D1AFCAB9A00325E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				6CDAFC831AFCAB9A00325E25 /* ViewController.m */,
 				6CDAFCA11AFCABC200325E25 /* MyOp.h */,
 				6CDAFCA21AFCABC200325E25 /* MyOp.m */,
+				6C400D2B1C0D51BB00B067A6 /* Property List.plist */,
 				6CDAFC851AFCAB9A00325E25 /* Main.storyboard */,
 				6CDAFC881AFCAB9A00325E25 /* Images.xcassets */,
 				6CDAFC8A1AFCAB9A00325E25 /* LaunchScreen.xib */,
@@ -206,6 +209,7 @@
 			files = (
 				6CDAFC871AFCAB9A00325E25 /* Main.storyboard in Resources */,
 				6CDAFC8C1AFCAB9A00325E25 /* LaunchScreen.xib in Resources */,
+				6C400D2C1C0D51BB00B067A6 /* Property List.plist in Resources */,
 				6CDAFC891AFCAB9A00325E25 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

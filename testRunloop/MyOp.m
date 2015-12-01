@@ -22,7 +22,7 @@
     NSLog(@"fired, %p, %p", [NSRunLoop currentRunLoop], [NSRunLoop mainRunLoop]);
     
     // test
-    
+    // he
 }
 
 - (void)main
